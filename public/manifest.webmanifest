@@ -1,0 +1,10 @@
+{
+  "name": "Analyzing urban heat in Thermopolis",
+  "short_name": "Thermopolis",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#b45309",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
