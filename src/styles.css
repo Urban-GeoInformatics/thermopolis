@@ -259,3 +259,12 @@ h1 { font-family: var(--serif); font-size: 1.35rem; margin: 0; line-height: 1.15
 .legend-swatch-soft { border: 1.5px dashed #333; background: transparent; }
 
 .trynote { margin: -6px 0 0; color: var(--muted); font-size: 0.88rem; }
+
+/* Large screens: compact controls, not full-width bars (phones keep the layout above). */
+@media (min-width: 900px) {
+  .tabs { grid-template-columns: repeat(3, minmax(0, 210px)); justify-content: start; gap: 8px; }
+  .tab-l { font-size: 0.88rem; }
+  .tab-q { font-size: 0.76rem; }
+  .col-info .btn-primary { justify-self: start; padding: 10px 22px; }
+  .seg-switch { max-width: 440px; }
+}
